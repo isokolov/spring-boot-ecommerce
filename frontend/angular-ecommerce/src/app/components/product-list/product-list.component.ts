@@ -4,7 +4,7 @@ import {Product} from "../../common/product";
 // ng generate component components/product-list
 @Component({
   selector: 'app-product-list',
-  templateUrl: './product-list-table.component.html',
+  templateUrl: './product-list-grid.component.html',
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
