@@ -15,6 +15,7 @@ import { ProductDetailsComponent } from './components/product-details/product-de
 *  npm install @ng-bootstrap/ng-bootstrap
 * */
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import { CartStatusComponent } from './components/cart-status/cart-status.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     ProductListComponent,
     ProductCategoryMenuComponent,
     SearchComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CartStatusComponent
   ],
   imports: [
     BrowserModule,
